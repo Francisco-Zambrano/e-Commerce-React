@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+.btn button{
+    display: flex;
+    font-weight: 400;
+    color: #1b3039;
+    padding: 5px 15px;
+    background: #eceff1;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cart-logo{
+    height: 40px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.cart-logo:hover{
+    transform: scale(1.1);
+}
+
+.count-cart{
+    font-weight: 700;
+    color: red;
+
+}
