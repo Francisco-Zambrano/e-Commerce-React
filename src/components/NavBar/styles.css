@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 60px;
     padding: 5px 10%;
 }
 
@@ -22,14 +22,14 @@
 }
 
 .header .logo img{
-    height: 70px;
+    height: 50px;
     width: auto;
     transition: all 0.3s;
     
 }
 
 .header .logo img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .header .nav-links{

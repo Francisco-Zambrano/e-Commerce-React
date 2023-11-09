@@ -2,12 +2,10 @@
 
 .btn button{
     display: flex;
-    font-weight: 400;
-    color: #1b3039;
-    padding: 5px 15px;
+    padding: 4px 14px;
     background: #eceff1;
     border: none;
-    border-radius: 40px;
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -25,5 +23,4 @@
 .count-cart{
     font-weight: 700;
     color: red;
-
 }
