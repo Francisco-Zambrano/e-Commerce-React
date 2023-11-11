@@ -42,7 +42,7 @@ const products = [
             title: "Acer Nitro 5 AN515-58",
             price: 1350,
             stock: 20,
-            image: "https://dummyimage.com/200x100.png/cc0000/ffffff",
+            image: "https://images.acer.com/is/image/acer/nitro5-an515-58-wallpaper-rgbkb-light-on-black-bby-01-1",
             description: "Intel Core i5-12500H, NVIDIA GeForce RTX 3050 Ti Laptop GPU, FHD 144Hz IPS Display, 16GB DDR4, 512GB Gen 4 SSD, Killer Wi-Fi 6"
         },
         {

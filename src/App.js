@@ -14,16 +14,14 @@ function App() {
 
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
-          <Route path="/item" element={<ItemDetailContainer itemId={1}/>} />
+          <Route path="/item/:id" element={<ItemDetailContainer />} />
+          <Route path="/products" element={<ItemListContainer />} />
+          <Route path="/products/:category" element={<ItemListContainer />} />
         </Routes>
 
-  
       </BrowserRouter>
     </div>
       
-    
-    
-  
   );
 }
 
