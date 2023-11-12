@@ -11,9 +11,10 @@ const NavBar = () => {
     </div>
     <nav>
        <ul className="nav-links">
-            <li><Link to="/products/gamer">Gamers</Link></li>
-            <li><Link to="/">Oficina</Link></li>
-            <li><Link to="/products/design">Diseño</Link></li>
+            <li><Link to="/products/laptop">laptops</Link></li>
+            <li><Link to="/products/headsets">Headsets</Link></li>
+            <li><Link to="/products/keyboards">Keyboards</Link></li>
+            <li><Link to="/products/mouses">Mouses</Link></li>
        </ul>            
     </nav>
     <div>

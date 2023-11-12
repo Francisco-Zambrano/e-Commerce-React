@@ -1,3 +1,4 @@
+import ItemCount from '../ItemCount/ItemCount'
 import './Styles.css'
 
 const ItemDetail = ( {item} ) => {
@@ -11,7 +12,7 @@ const ItemDetail = ( {item} ) => {
             <p className='p-details'>{item.description}</p>
             <h6 className='h6-details'>Precio: ${item.price}</h6>
             <div>
-              <button>boton</button>
+              <ItemCount initial={1} stock={10} onAdd={(quantity) => console.log ('cantidad agregada ', quantity)}/>
             </div>
         </div>
         
