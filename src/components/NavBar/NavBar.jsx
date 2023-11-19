@@ -11,7 +11,8 @@ const NavBar = () => {
     </div>
     <nav>
        <ul className="nav-links">
-            <li><Link to="/products/laptop">laptops</Link></li>
+            <li><Link to="/">Products</Link></li>
+            <li><Link to="/products/laptop">Laptops</Link></li>
             <li><Link to="/products/headsets">Headsets</Link></li>
             <li><Link to="/products/keyboards">Keyboards</Link></li>
             <li><Link to="/products/mouses">Mouses</Link></li>
