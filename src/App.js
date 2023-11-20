@@ -2,22 +2,17 @@ import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './pages/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './pages/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { CartContext } from './context/CartContext';
-import { useState } from 'react';
+import { CartProvider } from './context/CartContext';
 import Cart from './pages/Cart/Cart';
 
 function App() {
 
-  const quantityOnCart = () => {
-    return cart.reduce((acc, product) => acc + product.quantity, 0);
-  }
-
-  const [cart, setCart] = useState([]);
-
+  
   return (
     
     <div>
-      <CartContext.Provider value={{cart, setCart, quantityOnCart}}>
+      <CartProvider>
+      
         <BrowserRouter>
 
           <NavBar />
@@ -31,7 +26,8 @@ function App() {
           </Routes>
 
         </BrowserRouter>
-      </CartContext.Provider>
+      
+      </CartProvider>
     </div>
       
   );

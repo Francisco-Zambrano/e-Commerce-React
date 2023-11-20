@@ -31,9 +31,6 @@ const ItemDetail = ( {item} ) => {
       
     }
 
-    
-    
-
   return (
     <div className="card-detail" >
         <div className='img-container'>
@@ -47,10 +44,6 @@ const ItemDetail = ( {item} ) => {
               <ItemCount quantity={quantity} add={add} subtract={subtract} addToCart={addToCart}/>
             </div>
         </div>
-        
-      
-      
-      
     </div>
   )
 }

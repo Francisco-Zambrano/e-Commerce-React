@@ -23,6 +23,27 @@
 
 .trash-can{
     width: 25px;
+    cursor: pointer; 
+}
+
+.total-to-pay{
+    text-align: right;
+    padding-right: 150px;
+}
+
+.clear-btn{
+    font-size: 18px;
+    color: #f2f2f2;
+    background-color: #1b3039dc;
+    width: 80px;
+    padding: 15px;
+    border: 0;
+    outline: none;
     cursor: pointer;
-   
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.clear-btn:hover{
+    color: #ffbc0e;
 }
