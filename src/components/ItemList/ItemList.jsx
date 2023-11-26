@@ -4,9 +4,9 @@ import './styles.css'
 const ItemList = ({products}) => {
     
   return (
-    <div className="gallery">
+    <main className="gallery">
       {products.map(prod => <Item product={prod} key={prod.id} />)}
-    </div>
+    </main>
   )
 }
 

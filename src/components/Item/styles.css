@@ -1,4 +1,4 @@
-.card{
+.card-container{
     width: 20%;
     margin: 15px;
     box-sizing: border-box;
@@ -11,17 +11,22 @@
     transition: 0.4s;
 }
 
-.card:hover{
+.card-container:hover{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
 }
 
-img{
-    width: 70%;
-    height: 70%;
+.img-card-container{
+    width: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 10px;
+}
+
+.card-img{
+    width: 60%;
+    height: auto; 
 }
 
 p{
