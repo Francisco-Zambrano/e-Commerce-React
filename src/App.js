@@ -4,11 +4,13 @@ import ItemDetailContainer from './pages/ItemDetailContainer/ItemDetailContainer
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Cart from './pages/Cart/Cart';
+import BuyOrder from './components/BuyOrder/BuyOrder';
 import { getFirestore } from "firebase/firestore"
 
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -44,6 +46,7 @@ function App() {
             <Route path="/products" element={<ItemListContainer />} />
             <Route path="/products/:category" element={<ItemListContainer />} />
             <Route path="/Cart" element={<Cart />} />
+            <Route path="/BuyOrder" element={<BuyOrder />} />
           </Routes>
 
         </BrowserRouter>

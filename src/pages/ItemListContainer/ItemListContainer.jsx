@@ -6,15 +6,15 @@ import { getFirestore } from "firebase/firestore"
 
 const ItemListContainer = () => {
     const [products, setProducts] = useState([]);
-    const category = useParams().category;
+    const { category } = useParams();
        
     useEffect(() => {
     
       const db = getFirestore();
       const productsRef = collection(db, "products");
-      const q = category ? query(productsRef, where("category", "==", category)) : productsRef;
+      const productsQuery = category ? query(productsRef, where("category", "==", category)) : productsRef;
 
-      getDocs(q)
+      getDocs(productsQuery)
         .then((resp) => {
           setProducts(
             resp.docs.map((doc) => {

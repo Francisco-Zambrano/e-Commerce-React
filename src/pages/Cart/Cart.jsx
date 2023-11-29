@@ -2,6 +2,7 @@ import './styles.css'
 import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
 import TrashCan from './assets/TrashCan.svg'
+import { Link } from 'react-router-dom'
 
 
 const Cart = () => {
@@ -35,6 +36,10 @@ const Cart = () => {
         <div className='total-to-pay'>
             <h2 >Total: ${totalToPay()}</h2>
             <button className='clear-btn' onClick={handleClear}>Clear</button>
+            <Link to="/BuyOrder">
+                <button className='buy-btn' >Buy</button>
+            </Link>
+            
         </div>
         
     </div>
