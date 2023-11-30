@@ -10,6 +10,7 @@ Este proyecto es una SPA de eCommerce desarrollada con React que utiliza Firesto
 
 - [Francisco Zambrano](https://github.com/Francisco-Zambrano)
 
+
 ## Color Reference
 
 | Color             | Hex                                                                |
@@ -29,6 +30,8 @@ Para ejecutar el proyecto:
 2. Ingresa al directorio del proyecto
 1. Inicia el servidor de desarrollo: `npm start`
 2. Abre tu navegador y ve a `http://localhost:3000`
+
+
 ## Tecnologías Utilizadas
 
 - React JS
@@ -38,7 +41,6 @@ Para ejecutar el proyecto:
 
 ## Funcionalidades Principales
 
-
 - Visualización de productos
 - Filtrar productos por categorias
 - Agregar productos al carrito
@@ -47,10 +49,11 @@ Para ejecutar el proyecto:
 
 ## GIF
 
-Accede al video GIF de navegabilidad y los flujos básicos de la aplicación:
+Accede al video GIF donde se muestra la navegabilidad y los flujos básicos de la aplicación:
 https://drive.google.com/file/d/1X3Hpg7QnCps98G_707jJqVbBIukvZF9D/view?usp=sharing
-## Contacto
 
+
+## Contacto
 
 Para preguntas o colaboraciones, contáctame: fran.zambrano16@hotmail.com
 
