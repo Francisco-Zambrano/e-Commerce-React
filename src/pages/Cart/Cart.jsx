@@ -36,7 +36,7 @@ const Cart = () => {
         <div className='total-to-pay'>
             <h2 >Total: ${totalToPay()}</h2>
             <button className='clear-btn' onClick={handleClear}>Clear</button>
-            <Link to="/BuyOrder">
+            <Link to="/Checkout">
                 <button className='buy-btn' >Buy</button>
             </Link>
             

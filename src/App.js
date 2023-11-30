@@ -4,7 +4,7 @@ import ItemDetailContainer from './pages/ItemDetailContainer/ItemDetailContainer
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Cart from './pages/Cart/Cart';
-import BuyOrder from './components/BuyOrder/BuyOrder';
+import Checkout from './components/Checkout/Checkout';
 import { getFirestore } from "firebase/firestore"
 
 
@@ -46,7 +46,7 @@ function App() {
             <Route path="/products" element={<ItemListContainer />} />
             <Route path="/products/:category" element={<ItemListContainer />} />
             <Route path="/Cart" element={<Cart />} />
-            <Route path="/BuyOrder" element={<BuyOrder />} />
+            <Route path="/Checkout" element={<Checkout />} />
           </Routes>
 
         </BrowserRouter>

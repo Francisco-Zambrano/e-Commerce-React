@@ -7,7 +7,7 @@ import Good from './assets/Good.svg'
 import { Link } from 'react-router-dom'
 
 
-const BuyOrder = () => {
+const Checkout = () => {
 
   const [orderId, setOrderId] = useState("");
   const db = getFirestore();
@@ -31,6 +31,7 @@ const BuyOrder = () => {
     }
 
     if (orderId) {
+
       return (
         <div className='form-container'>
           <div className='check-purchase'>
@@ -48,9 +49,9 @@ const BuyOrder = () => {
          <h1>Complete the following form</h1>
         <form className='form' onSubmit={handleSubmit(buy)}>
 
-            <input type='text' placeholder='name' {...register("name")}/>
-            <input type='phone' placeholder='phone' {...register("phone")}/>
-            <input type='email' placeholder='email' {...register("email")}/>
+            <input type='text' placeholder='name' {...register("name")} required/>
+            <input type='phone' placeholder='phone' {...register("phone")} required/>
+            <input type='email' placeholder='email' {...register("email")} required/>
             <button className='send-btn' type='submit'>Buy</button>
 
         </form>
@@ -58,4 +59,4 @@ const BuyOrder = () => {
   )
 }
 
-export default BuyOrder
+export default Checkout
